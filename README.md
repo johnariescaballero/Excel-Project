@@ -1,24 +1,27 @@
+Customer Sentiment & NPS Analysis Dashboard
 Project Overview
-This project features a comprehensive Summary Dashboard built to analyze Net Promoter Scores (NPS) and ticket volumes across multiple service sites and contact channels. The goal is to identify friction points in the customer journey and provide actionable insights for service recovery.
+This dashboard analyzes Net Promoter Scores (NPS) and ticket volumes to identify service friction points and recovery opportunities.
 
 Key Features
-Dynamic Slicers: Filter by Site, Brand (Meta Quest, Rayban, Meta Portal), Solved Status, and Pareto Groupings.
+Dynamic Slicers: Filter by Site, Brand, Solved Status, and Pareto Groupings.
 
-Dual-Axis Visualization: Compares Survey Volume (Bar) against NPS (Line) to visualize the impact of scale on customer satisfaction.
+Dual-Axis Charts: Compares Survey Volume (Bars) against NPS (Lines) to show performance at scale.
 
-Driver Analysis: Breaks down sentiment by specific issues such as Hardware Orders, Digital Orders, and Technical Issues.
+Channel & Driver Analysis: Tracks sentiment across contact methods (WhatsApp, Chat, Email) and issue types.
 
-Channel Performance: Tracks NPS across WhatsApp, Email, Chat, and Salesforce integrations.
+📊 Key Insights
+Channel Leader: WhatsApp is the highest-rated channel, peaking at an NPS of 73.00.
 
-Key Insights (Current View)
-Channel Criticality: In the current "Rayban - Pending" view, the Salesforce channel shows a bottom-out NPS of -100.00, indicating a total breakdown in customer satisfaction for that specific funnel.
+Scalability: Chat handles the most volume (over 1,300 surveys) while maintaining a steady NPS above 41.00.
 
-High-Volume Friction: Hardware Orders represent the highest volume driver for Site 2 (115 surveys) but carry a low NPS of -38.26, highlighting a need for fulfillment process improvements.
+Site Consistency: Both sites show stable performance, with Site 2 leading slightly at 48.91 NPS.
 
-Technical Red Flags: "Display/Visual Issues" in Site 2 shows the most severe sentiment drop among drivers at -81.82.
+Driver Success: Digital Orders show the strongest sentiment among major drivers, reaching an NPS of 54.38.
+
+Volume Focus: Hardware Orders are the most frequent contact reason, maintaining consistent satisfaction despite high demand.
 
 Tech Stack
-Tool: Microsoft Excel (Advanced Pivot Tables, Power Query, and Slicers).
+Tool: Microsoft Excel (Pivot Tables, Power Query, Slicers).
 
 Data Source: customerSurveyProject.xlsx.
 
