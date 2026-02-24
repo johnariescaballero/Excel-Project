@@ -1,5 +1,5 @@
-Customer Sentiment & NPS Analysis Dashboard
-Project Overview
+# Customer Sentiment & NPS Analysis Dashboard
+## Project Overview
 This dashboard analyzes Net Promoter Scores (NPS) and ticket volumes to identify service friction points and recovery opportunities.
 
 Key Features
